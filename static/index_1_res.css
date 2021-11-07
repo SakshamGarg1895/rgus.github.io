@@ -1,0 +1,55 @@
+.title-top{
+    display: none;
+}
+nav ul li a{
+    font-size: 100%;
+    margin-left: 10vw;
+}
+.title-heading{
+    font-size: 220%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 480px){
+    .title-heading{
+        font-size: 180%;
+    }
+    .title-dis{
+        font-size: 140%;
+    }
+}
+
+@media screen and (max-width: 391px){
+    .title-heading{
+        font-size: 170%;
+    }
+}
+@media screen and (max-width: 374px){
+    .title-heading{
+        font-size: 150%;
+    }
+    
+}
+
+.title-dis{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    padding: 10px;
+}
+@media  screen and (max-width: 360px) {
+    .title-dis{
+        font-size: 100%;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .title-heading{
+        font-size: 90%;
+
+    }
+    .title-dis{
+        font-size: 60%;
+    }
+}

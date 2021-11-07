@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-bg-color: rgb(122, 68, 68);
+    --main-color: white;
+    --food-background-color: rgb(176 116 116);
+    --hover-color: rgb(213 213 213);
+}
+body{
+    background-color: var(--main-bg-color);
+}
+body::selection{
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+}
+header{
+    background-color: var(--main-bg-color);
+    height: 55px;
+}
+.logo{
+    height: 30px;
+    width: auto;
+    z-index: +1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+nav ul li{
+    color: var(--main-color);
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    list-style: none;
+
+}
+.icon-top{
+    border: red solid 1px;
+    color: var(--main-color);
+    background-color: violet;
+    width: 10px;
+    z-index: +1;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1.3vw;
+}
+nav ul li a:hover{
+    color: var(--hover-color);
+}
+nav ul li a::selection{
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+}
+nav ul li a:active{
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+
+}
+.title-top{
+    color: var(--main-color);
+    margin-top: 2vh;
+    margin-left: 26vw;
+
+}
+.title-top::selection{
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+}
+/* main section  */
+.main_1{
+    height: 23em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.title-heading{
+    color: var(--main-color);
+    font-size: 300%;
+    text-shadow: black 2px 2px;
+
+}
+.title-heading::selection{
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+
+}
+.title-dis{
+    color: var(--main-color);
+   
+}
+.title-dis::selection{
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+}
+.pickles-about{
+   background-color: var(--food-background-color); 
+   /* border: red 5px solid; */
+   border-radius: 8px;
+   height: 400px;
+   width: 1300px;
+   margin: auto;
+   margin-top: 8vh;
+   
+
+}
+#heading-pickle-info{
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    font-size: 250%;
+}
+.detail-pickle{
+    color: var(--main-color);
+    margin-top: 40px;
+    font-size: 120%;
+}
+.detail-pickle::first-letter{
+    font-size: 250%;
+    color: red;
+}
+.buying-pickle{
+    /* border: 4px solid red; */
+    margin-top: 100px;
+}
+.pickles-buying-heading{
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+.sweet-pickle{
+    /* border: solid red 4px; */
+    background-color: var(--food-background-color);
+    border-radius: 12px;
+    /* padding-top: 27px; */
+    height: 320px;
+    width: 1450px;
+    margin: auto;
+    overflow-x: scroll;
+}
+.sweet-pickle-heading{
+    color: var(--main-color);
+    margin-top: 10px;
+    margin-left: 12px;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.sweet-hr{
+    color: var(--main-bg-color);
+}
+.sweet-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.sweet-lemon-pickle-full{
+    display: flex;
+    border: solid var(--main-bg-color) 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.lemon-pickle-heading-short-info{
+    color: var(--main-color);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.lemon-pickle-img-real{
+    height: 200px;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+.sweet-mango-pickle{
+    display: flex;
+}
+.mango-pickle-image-real{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 12px;
+
+}
+.mango-pickle-info{
+    color: var(--main-color);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sweet-mango-pickle{
+    display: flex;
+    border: solid var(--main-bg-color) 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.mango-pickle-info:hover{
+    color: var(--hover-color);
+
+}
+
+
+.michci-full{
+    display: flex;
+    border: solid var(--main-bg-color) 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.michci-info{
+    color: var(--main-color);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mirchi-img-2{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 12px;
+
+}
+
+
+
+
+
+
+.end-footer{
+    background-color: var(--food-background-color);
+    color: var(--main-color);
+    margin-top: 5000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90%;
+}
